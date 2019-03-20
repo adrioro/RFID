@@ -37,17 +37,17 @@ header{
   background-color:  rgb(0, 0, 0);
 }
 .logobox{
-  width: 50%;
+  width: 70%;
   height: auto;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
-  font-size: 59px;
+  font-size: 79px;
   border-radius: 7px;
   text-align: center;
   margin-top: 32px;
   color: #F0C54A;
-  border:0.9px solid #F0C54A;
-  padding: 9px;
+  border:2px solid #F0C54A;
+  padding: 35px;
 }
 #TopBanner{
   background-color: black;
@@ -88,13 +88,12 @@ border-top:33px solid rgb(47, 35, 17);
   letter-spacing: 3px;
   font-size: 450%;
   text-align: center;
-  margin-bottom:  9px;
+  margin-bottom:32px;
   margin-top: 7%;
   font-weight:normal;
   color:#047177;
   line-height: 120%;
 }
-
 #features div h3 {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 3px;
@@ -102,7 +101,7 @@ border-top:33px solid rgb(47, 35, 17);
   font-size: 170%;
   font-weight: bold;
   text-align: center;
-
+  border-top:1px solid rgb(47, 35, 17);
   width: 100%;
   padding-top: 15px;
 }
@@ -162,10 +161,11 @@ padding-bottom: 3%;
 .button:hover {
   background: url(images/buttonbg_o.jpg);
 }
-#features div img{
-  width:70%;
-  heigh:auto;
+#features div img, #organize img, #share img{
+  width:100%;
+  height:auto;
 }
+
 #getIt .button{
   width: 80%;
   height: auto;

@@ -25,11 +25,11 @@ nav{
   padding: 9px;
   margin-top: 21px;
 }
-span a{
-  padding: 9px;
+span a, footer nav li a {
+  padding: 38px;
   text-decoration: none;
   color: black;
-  font-size: 28px;
+  font-size: 38px;
 }
 header{
   width: 100%;
@@ -63,11 +63,17 @@ header{
     margin-right: 20px;
   }
 div .container p{
-  width: 80%;
-  height: auto;
   border: 1px solid rgb(236, 234, 234);
-  padding: 9px;
+  padding: 11px;
   text-align: center;
+  font-size: 16px;
+}
+div #herocontent p{
+  font-size: 33px;
+  padding: 18px;
+  background-color: rgb(47, 35, 17);
+  border: 1px solid black;
+
 }
 #features h2, #share h2, #organize h2 {
   font-family: 'Orbitron', sans-serif;
@@ -126,13 +132,12 @@ color: rgb(170, 170, 170);
   line-height: 120%;
   }
 #herocontent {
-  width: 100%;
+  width: 90%;
   height: auto;
   padding-top: 40px;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 5px rgba(0,0,0,0.75) ; /* Shadow */
   text-align:center;
-  font-size: 21px;
 }
 .button {
   width: 50%;
@@ -146,6 +151,7 @@ color: rgb(170, 170, 170);
   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185, 91, 12, 1),inset 0px 1px 0px 0px rgba( 255,255,255,0.5);
   cursor: pointer; /* Important! To get the pointing hand over the button.*/
   margin-top: 33px;
+
 }
 .button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
 font-size: 43px;
@@ -165,10 +171,4 @@ padding-bottom: 3%;
 .button img{
   width: 45%;
   height:auto;
-}
-footer nav li a {
-font-size: 80%;
-color: rgb(0,0,0);
-text-decoration: underline;
-font-weight: normal;
 }

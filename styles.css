@@ -37,14 +37,14 @@ header{
   background-color:  rgb(0, 0, 0);
 }
 .logobox{
-  width: 250px;
+  width: 50%;
   height: auto;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
-  font-size: 29px;
+  font-size: 59px;
   border-radius: 7px;
   text-align: center;
-  margin-top: 7px;
+  margin-top: 32px;
   color: #F0C54A;
   border:0.9px solid #F0C54A;
   padding: 9px;
@@ -54,16 +54,16 @@ header{
 }
   input, .search {
     border-radius: 5px;
-    height: 20px;
-    margin-top: 15px;
+    width: 240px;
+    height: 45px;
+    margin-top: 35px;
+    margin-bottom: 15px;
     border: 1px solid rgb(150,150,150);
-    width: 140px;
     background: rgb(255,255,255) url(images/search.png) no-repeat 4px 4px;
     padding: 4px 4px 4px 30px;
-    margin-right: 20px;
+
   }
 div .container p{
-  border: 1px solid rgb(236, 234, 234);
   padding: 11px;
   text-align: center;
   font-size: 16px;
@@ -73,7 +73,15 @@ div #herocontent p{
   padding: 18px;
   background-color: rgb(47, 35, 17);
   border: 1px solid black;
-
+}
+.featuresSubtitle{
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+#features, #organize, #share{
+padding: 22px;
+border-top:33px solid rgb(47, 35, 17);
 }
 #features h2, #share h2, #organize h2 {
   font-family: 'Orbitron', sans-serif;
@@ -86,21 +94,17 @@ div #herocontent p{
   color:#047177;
   line-height: 120%;
 }
-#features h4 {
-font-size: 125%;
-font-weight: normal;
-text-align: center;
-margin-bottom: 40px;
-color: rgb(170, 170, 170);
-}
+
 #features div h3 {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 3px;
   line-height: 1.3;
   font-size: 170%;
   font-weight: bold;
-  color: #047177;
   text-align: center;
+
+  width: 100%;
+  padding-top: 15px;
 }
 #getIt h3{
   font-family: 'Orbitron', sans-serif;
@@ -134,7 +138,6 @@ color: rgb(170, 170, 170);
 #herocontent {
   width: 90%;
   height: auto;
-  padding-top: 40px;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 5px rgba(0,0,0,0.75) ; /* Shadow */
   text-align:center;
@@ -150,8 +153,7 @@ color: rgb(170, 170, 170);
   /*All these shadows must be in a single line to work.!*/
   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185, 91, 12, 1),inset 0px 1px 0px 0px rgba( 255,255,255,0.5);
   cursor: pointer; /* Important! To get the pointing hand over the button.*/
-  margin-top: 33px;
-
+  margin-top: 7px;
 }
 .button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
 font-size: 43px;
@@ -159,6 +161,10 @@ padding-bottom: 3%;
 }
 .button:hover {
   background: url(images/buttonbg_o.jpg);
+}
+#features div img{
+  width:70%;
+  heigh:auto;
 }
 #getIt .button{
   width: 80%;

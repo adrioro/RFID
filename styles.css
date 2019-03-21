@@ -215,8 +215,28 @@ padding-bottom: 3%;
 
 @media only screen and (min-width: 768px){
 
-#threeFeatures{
-  background-color: gray;
+  .container #threeFeatures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding: 15px;
+  }
+  #feature1, #feature2, #feature3{
+    width:33.33%;
+    padding: 15px;
+  }
+  #feature1, #feature3{
+    background-color: rgba(242, 242, 242, 0.75);
+
+  }
+#features div h3{
+  border-top: 0px;
 }
+h2{
+  margin-bottom:12px;
+  margin-top: 4%;
+}
+
 
 }

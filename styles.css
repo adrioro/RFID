@@ -66,7 +66,7 @@ header{
 p{
   padding: 11px;
   text-align: center;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 #herocontent p{
@@ -75,7 +75,7 @@ p{
   background-color: rgb(245, 242, 237);
   margin-top: -35%;
   width:100%;
-  
+
 
 }
 .featuresSubtitle{
@@ -163,6 +163,7 @@ h2 {
   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185, 91, 12, 1),inset 0px 1px 0px 0px rgba( 255,255,255,0.5);
   cursor: pointer; /* Important! To get the pointing hand over the button.*/
   margin-top: 7px;
+  margin-bottom: 65px;
 }
 .button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
 font-size: 43px;

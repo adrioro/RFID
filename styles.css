@@ -215,12 +215,15 @@ padding-bottom: 3%;
 
 @media only screen and (min-width: 768px){
 
-  .container #threeFeatures{
+  .container #threeFeatures, #organizeShare{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: stretch;
     padding: 15px;
+  }
+  #organizeShare h2{
+    font-size: 35px;
   }
   #feature1, #feature2, #feature3{
     width:33.33%;

@@ -45,7 +45,6 @@ nav{
 #footerNav{
   margin-top: 28px;
 }
-
 span a {
   padding: 3px;
   text-decoration: none;
@@ -144,7 +143,6 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .heroimage{/* Moving image off its container */
   width: 95%;
@@ -226,7 +224,6 @@ padding-bottom: 3%;
   }
   #feature1, #feature3{
     background-color: rgba(242, 242, 242, 0.75);
-
   }
 #features div h3{
   border-top: 0px;
@@ -252,7 +249,25 @@ h2{
   padding-top: 8px;
   margin-top: 9px;
   margin-bottom: 36px;
-
 }
-
+.logobox{
+  width: 400px;
+  font-size: 45px;
 }
+span a {
+  padding: 21px;
+  font-size: 21px;
+}
+#getIt .button{
+  width: 250px;;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 25px;
+}
+}
+@media only screen and (min-width: 1200px){
+  body, nav{
+    max-width:1200px;important!
+    height: auto;
+  }

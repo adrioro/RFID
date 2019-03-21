@@ -8,6 +8,13 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+.containerRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap
+}
 body {
   width:100%;
   height: auto;
@@ -15,35 +22,32 @@ body {
   color: rgb(100,100,100);
   margin:0 !important;
 }
+
 /* THESE RULES APPLY TO THE LOW REZ DISPLAY*/
-#nav, #footernav{
+nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display:inline;
   background-color: rgb(214, 119, 6);
   width: 100%;
   height: auto;
   padding: 3px;
   padding-top: 22px;
   padding-bottom: 22px;
-
+  text-align: center;
 }
 #nav{
   position: fixed;
   top:0;
   z-index: 1;
 }
-#footernav{
-  overflow: hidden;
-  margin-top: 55px;
-}
-span a, footer nav li a {
-  padding: 38px;
+
+span a {
+  padding: 3px;
   text-decoration: none;
   color: black;
-  font-size: 38px;
+  font-size: 18px;
 }
 header{
   width: 100%;
@@ -55,13 +59,13 @@ header{
   height: auto;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
-  font-size: 79px;
+  font-size: 29px;
   border-radius: 7px;
   text-align: center;
-  margin-top: 125px;
+  margin-top: 50px;
   color: #F0C54A;
   border:2px solid #F0C54A;
-  padding: 35px;
+  padding: 15px;
 }
 #TopBanner{
   background-color: black;
@@ -93,7 +97,7 @@ p{
 
 }
 .featuresSubtitle{
-  font-size: 50px;
+  font-size: 30px;
   font-style: italic;
   text-align: center;
 }
@@ -104,7 +108,7 @@ border-top:33px solid rgb(47, 35, 17);
 h2 {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 3px;
-  font-size: 65px;
+  font-size: 40px;
   text-align: center;
   margin-bottom:32px;
   margin-top: 9%;
@@ -116,7 +120,7 @@ h2 {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 3px;
   line-height: 1.3;
-  font-size: 42px;
+  font-size: 33px;
   font-weight: bold;
   text-align: center;
   border-top:1px solid rgb(47, 35, 17);
@@ -141,13 +145,13 @@ h2 {
 
 }
 .heroimage{/* Moving image off its container */
-  width: 90%;
+  width: 95%;
   position: relative;
-  top: -340px;
+  top: -190px;
 
 }
 #hero h1 {
-  font-size: 60px;
+  font-size: 45px;
   margin-bottom: -10px;
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 3px;
@@ -180,7 +184,7 @@ h2 {
 
 }
 .button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
-font-size: 43px;
+font-size: 33px;
 padding-bottom: 3%;
 }
 .button:hover {
@@ -202,7 +206,11 @@ padding-bottom: 3%;
   height:auto;
 }
 
+
 @media only screen and (min-width: 768px){
 
+#threeFeatures{
+  background-color: gray;
+}
 
 }

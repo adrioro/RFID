@@ -89,15 +89,12 @@ p{
   text-align: center;
   font-size: 22px;
 }
-
 #herocontent p{
   font-size: 200%;
   padding: 18px;
   background-color: rgb(245, 242, 237);
   margin-top: -35%;
   width:100%;
-
-
 }
 .featuresSubtitle{
   font-size: 30px;
@@ -153,7 +150,6 @@ h2 {
   width: 95%;
   position: relative;
   top: -190px;
-
 }
 #hero h1 {
   font-size: 45px;
@@ -187,7 +183,6 @@ h2 {
   cursor: pointer; /* Important! To get the pointing hand over the button.*/
   margin-top: 7px;
   margin-bottom: 38px;
-
 }
 .button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
 font-size: 33px;
@@ -240,6 +235,24 @@ h2{
   margin-bottom:12px;
   margin-top: 4%;
 }
+.heroimage{/* Moving image off its container */
+  width: 45%;
+  position: relative;
+  top: -230px;
+}
+#herocontent p{
+  font-size: 18px;
+  padding: 18px;
+  background-color: rgb(245, 242, 237);
+  margin-top: -20%;
+  width:75%;
+}
+.button {
+  width: 250px;
+  padding-top: 8px;
+  margin-top: 9px;
+  margin-bottom: 36px;
 
+}
 
 }

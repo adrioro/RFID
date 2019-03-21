@@ -62,18 +62,21 @@ header{
     border: 1px solid rgb(150,150,150);
     background: rgb(255,255,255) url(images/search.png) no-repeat 4px 4px;
     padding: 4px 4px 4px 30px;
-
   }
 p{
   padding: 11px;
   text-align: center;
   font-size: 16px;
 }
+
 #herocontent p{
   font-size: 200%;
   padding: 18px;
-  background-color: rgb(47, 35, 17);
-  border: 1px solid black;
+  background-color: rgb(245, 242, 237);
+  margin-top: -35%;
+  width:100%;
+  
+
 }
 .featuresSubtitle{
   font-size: 50px;
@@ -118,11 +121,15 @@ h2 {
 #hero{
   background-image: url(images/herobg1.jpg);
   background-color: #3c2a06; /* Used if the image is unavailable */
-  height: 964px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+.heroimage{/* Moving image off its container */
+  width: 90%;
   position: relative;
+  top: -340px;
 
 }
 #hero h1 {
@@ -135,6 +142,7 @@ h2 {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 5px rgba(0,0,0,0.75) ; /* Shadow */
   line-height: 120%;
+  padding-bottom: 250px;
   }
 #hero {
   width: 100%;
